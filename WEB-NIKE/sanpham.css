@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1216px;
+    height: auto;
+}
+.boxtop{
+    float: left;
+    background-color: #333;
+    width: 100%;
+    height: 50px; 
+    clear: both;
+}
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.boxlogo{
+    float: left;
+    width: 100%;
+    border-bottom:1px #ccc solid;
+    text-align: center;
+    height: 100px;
+    background-color: white;
+}
+.boxmenu{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color:  #d8d2d2;
+}
+.boxmenu>ul>li>a:hover{
+    color: red;
+}
+.boxmenu ul li:hover {
+    background-color: azure;
+}
+article{
+    float: left;
+    width: 100%;
+    height: 1600px;
+    margin: 0 ;
+    background-color: #e1dddd;
+
+}
+footer{
+    float: left;
+    background-color: #333;
+    width: 100%;
+    min-height: 300px;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+.Sanphamhot{
+    position: relative;
+    color: red;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.Sanphamhot>h2>a{
+    text-decoration: none;
+    position: relative;
+    color: red;
+    height: 100px;
+    top: 15px;
+}
+.boxtimkiem{
+    width: 30%;
+    float: right;
+    text-align: center;
+    
+}
+.boxtimkiem input{
+   position: relative;
+   top: 12px;
+}
+.boxtimkiem img{
+    width: 35px;
+    margin-top: 10px;
+    
+}
+.boxtoptrai{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.boxtopphai{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+.boxtopphai ul{
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.boxtopphai ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 20px;
+    font-size: 14px;
+}
+.boxtopphai ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+.boxtopphai ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.boxtopphai ul li ul{
+    display: none;
+    background-color: #eee;
+}
+.boxtopphai ul li ul li{
+    float: none;
+    border-bottom: 1px #333 solid;
+    border-left: 1px #333 solid ;
+    border-right: 1px #333 solid ;
+}
+.boxtopphai ul li ul li:first-child{
+    border-top: 1px #333 solid;
+}
+
+.boxpro{
+    width:calc(calc(100% - 70px)/4);
+    float: left;
+    margin: 10px 5px;
+    position: relative;
+    left: 6px;
+    
+}
+.boxpro>.text4{
+    color: #333;
+    text-decoration: none;
+    margin: 0   ;
+}
+.boxpro>.text4:hover{
+  color: red;
+}
+.text3{
+    width: 100%;
+    padding: 2px;
+}
+.text3:hover{
+    background-color: black;
+    border-radius: 4px;
+}
+.boxmenu ul{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.boxmenu ul li{
+    list-style-type: none;
+    float: left;
+    padding: 17px 20px;
+    font-size: 14px;
+}
+.boxmenu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+.boxmenu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.boxmenu ul li ul{
+    display: none;
+    background-color: #eee;
+}
+.boxmenu ul li ul li{
+    float: none;
+    border-bottom: 1px #333 solid;
+    border-left: 1px #333 solid ;
+    border-right: 1px #333 solid ;
+}
+.boxmenu ul li ul li:first-child{
+    border-top: 1px #333 solid;
+}
+.row{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.boxfooter1{
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter2{
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+}
+.boxfooter3{
+    width: 60%;
+    float: left;
+}
+.textcenter{
+    text-align: center;
+}
+.color1{
+    color: white;
+}
+.mgbt10{
+    margin-bottom: 10px;
+}
+.diachi{
+    font-size: 11px;
+}
+.diachi:hover{
+    text-decoration: underline;
+}
+.p{
+    font-size: 14px;
+}
+.banquyen{
+    float: left;
+    font-size: 12px;
+}
+.baomat{
+    float: right;
+    font-size: 12px;
+}
+aside{
+    float: right;
+    background-color: #ccc;
+    width: 100%;
+}

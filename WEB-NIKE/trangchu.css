@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1216px;
+    height: auto;
+}
+.boxtop{
+    float: left;
+    background-color: #333;
+    width: 100%;
+    height: 50px; 
+}
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.boxlogo{
+    float: left;
+    width: 100%;
+    border-bottom:1px #ccc solid;
+    text-align: center;
+    height: 100px;
+}
+
+.boxmenu{
+    width: 100%;
+    float: left;
+    height: 50px;   
+   background-color:   #d8d2d2;
+}
+.boxmenu>ul>li>a:hover{
+    color: red;
+}
+.boxmenu ul li:hover {
+    background-color: azure;
+}
+.boxmenu ul{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.boxmenu ul li{
+    list-style-type: none;
+    float: left;
+    padding: 17px 20px;
+    font-size: 14px;
+}
+.boxmenu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+.boxmenu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.boxmenu ul li ul{
+    display: none;
+    background-color: #eee;
+}
+.boxmenu ul li ul li{
+    float: none;
+    border-bottom: 1px #333 solid;
+    border-left: 1px #333 solid ;
+    border-right: 1px #333 solid ;
+}
+.boxmenu ul li ul li:first-child{
+    border-top: 1px #333 solid;
+}
+article{
+    width: 1216px;
+    height: auto;
+    margin: 0;
+    float: left;
+    background-color: #e1dddd;
+
+}
+footer{
+    float: left;
+    background-color: #333;
+    width: 100%;
+    min-height: 300px;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0  auto;
+    
+}
+.boxtimkiem{
+    width: 30%;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: 27px;
+    
+}
+.boxtimkiem input{
+   position: relative;
+   top: -15px;
+}
+.boxtimkiem img{
+    width: 35px;
+    margin-top: 10px;
+    
+}
+.boxtoptrai{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.boxtopphai{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+.boxtopphai ul{
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.boxtopphai ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 20px;
+    font-size: 14px;
+}
+.boxtopphai ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+.boxtopphai ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.boxtopphai ul li ul{
+    display: none;
+    background-color: #eee;
+}
+.boxtopphai ul li ul li{
+    float: none;
+    border-bottom: 1px #333 solid;
+    border-left: 1px #333 solid ;
+    border-right: 1px #333 solid ;
+}
+.boxtopphai ul li ul li:first-child{
+    border-top: 1px #333 solid;
+}
+
+.row{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.boxfooter1{
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter2{
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+}
+.boxfooter3{
+    width: 60%;
+    float: left;
+}
+.textcenter{
+    text-align: center;
+}
+.color1{
+    color: white;
+}
+.mgbt10{
+    margin-bottom: 10px;
+}
+.diachi{
+    font-size: 11px;
+}
+.diachi:hover{
+    text-decoration: underline;
+}
+.p{
+    font-size: 14px;
+}
+.banquyen{
+    float: left;
+    font-size: 12px;
+}
+.baomat{
+    float: right;
+    font-size: 12px;
+}
+aside{
+    width: 100%;
+    background-color: #ccc;
+    clear: both;
+}
+.boster1{
+    width: 100%;
+    background-image: url(anh/trangchuanh1.png);
+    height: 500px;
+    
+}
+.boster1>h1{
+    font-size: 40pt;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+.boster1>span{
+    font-size: 13pt;
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+.boster1>a>button{
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 200px;
+    right: 480px;
+}
+.boster1>a>button:hover{
+    background-color: #d8d2d2;
+}
+.boster2{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.boster2trai{
+    width: 50%;
+    background-image: url(anh/trangchuanh2.png);
+    height: 600px;
+    float: left;
+}
+.boster2phai{
+    width: 50%;
+    background-image: url(anh/trangchuanh3.png);
+    height: 600px;
+    float: right;
+}
+.boster2trai>.text1{
+    color: white;
+    position: relative;
+    top: 400px;
+    left: 30px;
+}
+.text1>a>button{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+}
+.text1>a>button:hover{
+    background-color: #d8d2d2 ;
+}
+.text2{
+    color: white;
+    position: relative;
+    top: 390px;
+    left: 30px;
+}
+.text2>a>button{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    position: relative;
+    top: 10px;
+    background-color: white;
+}
+.text2>a>button:hover{
+    background-color:  #d8d2d2;
+}
+.boster3{
+    width: 100%;
+    height: 700px;
+    clear:both;
+}
+
+
+.getnotified{
+    text-align: center;
+    position: relative;
+    top: 20px;
+   
+}
+.getnotified>a{
+    background-color: #333;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+.getnotified>a:hover{
+    background-color: #726d6d;
+}
+.boster3-chu{
+    clear: both;
+    position: relative;
+    top: 20px;
+}
+.trailer1{
+    width: 100%;
+    height: 500px;
+    clear: both;
+    position: relative;
+    top: 70px;
+}
+.boster4{
+    width: 100%;
+    height: 800px;
+    clear:both;
+}
+.trailer2{
+    width: 1216px;
+    clear: both;
+}
+.boster5{
+    width: 100%;
+    height: 600px;
+    clear: both;
+}
+.shop>a{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    left: 570px;
+    top: 40px;
+}
+.shop>a:hover{
+    background-color:#726d6d;
+}.boxtuongtu{
+    width: 85%;
+    margin: 0  auto;
+    position: relative;
+    top:80px;
+    left: 30px;
+
+}
+.sanphamtuongtu>.baodoi{
+    text-align: center;
+}
+.sanphamtuongtu>.boxpro{
+        margin: 20px 0;
+}.boxpro{
+    width:calc(calc(100% - 60px)/4);
+    float: left;
+    margin: 0;
+    margin-top: 0px;
+}
+.boxpro a{
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    float: left;
+
+}
+.boxpro a:hover{
+  color: red;
+}
+.boximg img{
+    width: 100%;
+    padding: 3px;
+}
+.boster6{
+    width: 100%;
+    clear: both;
+    height: 1000px;
+}
+.trailer3{
+    width: 1216px;
+    clear: both;
+}
+.boster6>.text2>a{
+    padding: 15px 20px;
+    clear: both;
+    position: relative;
+    bottom: 300px;
+    left: 450px;    
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.boster6>.text2>a:hover{
+    background-color: #726d6d;
+}
